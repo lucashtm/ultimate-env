@@ -3,7 +3,10 @@ volumes:
   portainer_data:
 services:
   nginx:
-    build: ./nginx
+    build:
+      context: ./nginx
+      args:
+        - nginx_services=${NGINX_SERVICES}
     network_mode: "host"
     restart: always
 
