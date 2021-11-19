@@ -1,6 +1,6 @@
 # Ultimate Env
 
-Create a .env file in the root directory of your project with a variable `NGINX_SERVICES` with the format `<service_1>:<service_1_port>,<service_2>:<service_2_port>` to expose those services.
+Clone this project and create a .env file in the root directory project with a variable `NGINX_SERVICES` with the format `<service_1>:<service_1_port>,<service_2>:<service_2_port>` to expose those services.
 
 ## Example:
 
